@@ -1131,7 +1131,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: 9469c79b3f524e54ea8e4b63d57ba5d8, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 997336b6e6f09c546baca4a2c13211bf, type: 2}
+      objectReference: {fileID: 9100000, guid: 4febb151ba6952a4388d8e5815851188, type: 2}
     - target: {fileID: 5866666021909216657, guid: 9469c79b3f524e54ea8e4b63d57ba5d8, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0
@@ -1446,6 +1446,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   health: 100
+  damage: 5
+  stopDistance: 2.4
 --- !u!54 &4942187281106057209
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1453,10 +1455,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7087753768785898290}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
